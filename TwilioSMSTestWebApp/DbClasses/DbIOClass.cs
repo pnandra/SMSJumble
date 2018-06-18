@@ -17,7 +17,7 @@ namespace TwilioSMSTestWebApp.DbClasses
             {
                 Models.SMSRecord record = new Models.SMSRecord
                 {
-                    ID = 0, // this will be ignored
+                    ID = 0, // this will be ignored as it is primary key
                     vchMessageIn = message,
                     vchMessageOut = response,
                     dttmTimeStamp = timeStamp
