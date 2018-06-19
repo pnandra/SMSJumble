@@ -7,6 +7,8 @@ Therefore, working with 5.13.3.
 a.  accountSid
 b.  authToken
 c.  ErrorLogPath
+d.  Connection string should not require change but 
 
 4.  Using Visual Studio .NET 2017 Community Edition and Entity Framework 6.x
 5.  Since we have only one cell phone, it has been tested only with that number.
+6.  I used Ngrok to tunnel through the proxy and my local fire wall.
